@@ -5,7 +5,9 @@ N3 = float(input("digite a terceira nota"))
 Media = (N1+N2+N3)/3
 
 if Media >= 7:
- float(input(f"Aprovada maezinha"))
-
+    print(f"Aprovada maezinha")
 else:
- float(input(f"Reprovada, maezinha, tente novamente"))
+     if Media <4:
+         print(f"Reprovada, maezinha, tente novamente")
+     else:
+        print(f"Recupera maezinhaa")
